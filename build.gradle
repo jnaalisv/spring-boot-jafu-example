@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "io.spring.dependency-management" version "1.0.6.RELEASE"
-    id "org.springframework.boot" version "2.1.0.RELEASE"
+    id "org.springframework.boot" version "2.1.1.RELEASE"
 }
 
 repositories {
@@ -13,7 +13,7 @@ repositories {
 dependencies {
     compile (
             "org.springframework.boot:spring-boot-starter-webflux",
-            "org.springframework.fu:spring-fu-jafu:0.0.3.BUILD-SNAPSHOT"
+            "org.springframework.fu:spring-fu-jafu:0.0.4.BUILD-SNAPSHOT"
     )
 }
 
