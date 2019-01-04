@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    compile (
+    implementation (
             "org.springframework.boot:spring-boot-starter-webflux",
             "org.springframework.fu:spring-fu-jafu:0.0.4.BUILD-SNAPSHOT"
     )
